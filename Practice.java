@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.Scanner;
 /*
  * @param input
@@ -115,4 +116,23 @@ public class Practice {
 			}
     	
     }
+=======
+public class Practice {
+	
+ 
+	public static void main(String[] args) {
+		/*Scanner in = new Scanner(System.in);
+	System.out.println("Please enter a number");
+	
+	   if (!in.hasNextInt()) System.err.println("You didnt enter a number! :(");
+	   else System.out.println("Good job you follow rules!");*/
+		System.out.print("Greek alphabet: ");
+		for (int i = 913; i <= 937; i++) {
+		System.out.print((char) i);
+		}
+		System.out.println();
+	   
+	   
+	}
+>>>>>>> e82a1777634e2938aa36f08f9d905be7ddfca734
 }
